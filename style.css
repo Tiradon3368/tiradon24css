@@ -1,0 +1,114 @@
+h3 {
+    font-size: 30px;
+    text-align: right;
+    color: rgb(76, 241, 76);
+}
+
+.nav {
+    list-style-type: none;
+    background-color: chocolate;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.bgcolor {
+    background-color: darkslategrey;
+}
+
+#bgurl {
+    background-repeat: no-repeat;
+    opacity: 1;
+    overflow: hidden;
+    text-align: center;
+}
+
+#bgurl:hover {
+    opacity: 0.6;
+}
+#bgurl img{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+}
+#hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    transition: width 1s;
+    float: left;
+}
+#hover:hover{
+    width: 300px;
+    background-color: green;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+img{
+    width: 200px;
+    height: 150px;
+}
+
+#text{
+    background-color: aquamarine;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20%;
+}
+
+#text2{
+    height: auto;
+    width: 549px;
+    background-color: aquamarine;
+    border: 10px solid black;
+    text-align: justify;
+    text-indent: 20%;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+}
+
+#text3{
+    height: auto;
+    width: 549px;
+    background-color: aquamarine;
+    border: 10px solid black;
+    text-align: justify;
+    text-indent: 20%;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+}
+
+#text4{
+    height: auto;
+    width: 549px;
+    background-color: aquamarine;
+    border: 10px solid black;
+    text-align: justify;
+    text-indent: 20%;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+}
